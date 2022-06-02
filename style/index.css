@@ -1,0 +1,74 @@
+body {
+  background: #262626;
+  font-family: "Roboto Light", sans-serif;
+  color: white;
+}
+body main #form {
+  margin-bottom: 50px;
+}
+body main #form input {
+  margin: 15px 0 0 0;
+  background: #262626;
+  color: white;
+  border: 1px solid #919191;
+  border-radius: 30px;
+  padding: 10px 10px 10px 30px;
+}
+body main #form input:focus {
+  box-shadow: 0 0 10px 3px #B1FF2A;
+  border: 1px solid #919191;
+  background: #43502b;
+}
+body main #form select {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 15px 0 15px 0;
+  background: #262626;
+  border: 1px solid #919191;
+}
+body main #form select:focus {
+  box-shadow: 0 0 10px 3px #B1FF2A;
+}
+body main #form textarea {
+  background: #262626;
+  margin: 10px 0 10px 0;
+  color: white;
+  border: 1px solid #919191;
+  resize: none;
+  border-radius: 15px;
+}
+body main #form textarea:focus {
+  box-shadow: 0 0 10px 3px #B1FF2A;
+  background: #43502b;
+  color: white;
+}
+body main #form .form-select {
+  color: white;
+}
+body main #form .form-check-input {
+  border-radius: 5px;
+  padding: 0;
+  color: white;
+  margin: 3px 15px 3px 3px;
+}
+body main #form .form-check-input:checked {
+  background-color: #B1FF2A;
+  border-color: #B1FF2A;
+}
+body main #form .btn.btn-primary {
+  width: 100%;
+}
+body main #form button {
+  background: #85be24;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+body main #form button:hover {
+  box-shadow: 0 0 10px 3px #B1FF2A;
+  background: #B1FF2A;
+  color: #262626;
+}
+
+/*# sourceMappingURL=index.css.map */

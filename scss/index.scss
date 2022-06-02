@@ -1,0 +1,76 @@
+body {
+  background: #262626;
+  font-family: 'Roboto Light' , sans-serif;
+  color: white;
+  main {
+    #form {
+      margin-bottom: 50px;
+      input {
+        margin: 15px 0 0 0;
+        background: #262626;
+        color: white;
+        border: 1px solid rgb(145, 145, 145);
+        border-radius: 30px;
+        padding: 10px 10px 10px 30px;
+      }
+      input:focus {
+        box-shadow: 0 0 10px 3px #B1FF2A;
+        border: 1px solid rgb(145, 145, 145);
+        background: #43502b;
+      }
+      select {
+        border-radius: 30px;
+        padding: 10px;
+        margin: 15px 0 15px 0;
+        background: #262626;
+        border: 1px solid rgb(145, 145, 145);
+      }
+      select:focus{
+        box-shadow: 0 0 10px 3px #B1FF2A;
+      }
+      textarea{
+        background: #262626;
+        margin: 10px 0 10px 0;
+        color: white;
+        border: 1px solid rgb(145, 145, 145);
+        resize: none;
+        border-radius: 15px;
+      }
+      textarea:focus{
+        box-shadow: 0 0 10px 3px #B1FF2A;
+        background: #43502b;
+        color: white;
+      }
+     .form-select{
+       color: white;
+     }
+      .form-check-input{
+        border-radius: 5px;
+        padding: 0;
+        color: white;
+        margin: 3px 15px 3px 3px;
+      }
+
+      .form-check-input:checked {
+        background-color: #B1FF2A;
+        border-color: #B1FF2A;
+      }
+      .btn.btn-primary {
+        width: 100%;
+      }
+      button {
+        background: #85be24;
+        border: none;
+        color: white;
+        border-radius: 30px;
+        padding: 10px;
+        &:hover{
+          box-shadow: 0 0 10px 3px #B1FF2A;
+          background: #B1FF2A;
+          color: #262626;
+        }
+      }
+
+    }
+  }
+}
