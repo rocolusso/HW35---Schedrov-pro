@@ -26,29 +26,31 @@
                 <form id="form">
 
                     <div class="mb-3">
-                        <label class="form-label">Email address</label>
-                        <input name="email" type="email"  class="form-control" required>
+                        <label for="email" class="form-label">Email address</label>
+                        <input name="email" id="email" type="email" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">First name</label>
-                        <input name="firstName" type="text" class="form-control" required>
+                        <label for="firstName" class="form-label">First name</label>
+                        <input name="firstName" id="firstName" type="text" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Last name</label>
-                        <input name="lastName" type="text" class="form-control" required>
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input name="lastName" id="lastName" type="text" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Nickname</label>
-                        <input name="nickname" type="text" class="form-control" autocomplete="username" required>
+                        <label for="nickname" class="form-label">Nickname</label>
+                        <input name="nickname" id="nickname" type="text" class="form-control" autocomplete="username"
+                               required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Password</label>
-                        <input name="password" type="password" class="form-control" autocomplete="current-password" required>
+                        <label for="password" class="form-label">Password</label>
+                        <input name="password" id="password" type="password" class="form-control"
+                               autocomplete="current-password" required>
                     </div>
 
                     <div class="mb-3 ">
-                        <label class="form-label">Select an option</label>
-                        <select name="option" class="form-select">
+                        <label for="option" class="form-label">Select an option</label>
+                        <select name="option" id="option" class="form-select">
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
@@ -57,23 +59,24 @@
                     </div>
 
                     <div class="mb-3 ">
-                        <label class="form-label">Type in your message</label>
+                        <label for="textarea" class="form-label">Type in your message</label>
                         <textarea
                                 class="form-control"
                                 placeholder="Leave a comment here"
                                 style="height: 100px"
                                 name="message"
+                                id="textarea"
                         ></textarea>
 
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label">Default file input example</label>
-                        <input name="file" class="form-control" type="file">
+                        <label for="file" class="form-label">Default file input example</label>
+                        <input name="file" id="file" class="form-control" type="file">
                     </div>
                     <div class="mb-3 form-check">
-                        <input name="terms" type="checkbox" class="form-check-input" required>
-                        <label class="form-check-label">Согласен с условиями</label>
+                        <input name="terms" id="checkbox" type="checkbox" class="form-check-input" required>
+                        <label for="checkbox" class="form-check-label">Согласен с условиями</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
