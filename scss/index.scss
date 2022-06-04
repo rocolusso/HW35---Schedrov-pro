@@ -59,15 +59,14 @@ body {
         width: 100%;
       }
       button {
-        background: #85be24;
-        border: none;
-        color: white;
+        background: transparent;
+        border: 1px solid  #85be24;
+        color: #85be24;
         border-radius: 30px;
         padding: 10px;
         &:hover{
           box-shadow: 0 0 10px 3px #B1FF2A;
-          background: #B1FF2A;
-          color: #262626;
+          color: white;
         }
       }
 

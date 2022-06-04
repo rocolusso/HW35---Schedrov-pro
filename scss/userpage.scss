@@ -17,16 +17,16 @@ body {
        }
      }
      button {
-       width: 400px;
-       background: #85be24;
-       border: none;
-       color: white;
+       width: 100%;
+       background: transparent;
+       border: 1px solid  #85be24;
+       color: #85be24;
        border-radius: 30px;
        padding: 10px;
        &:hover{
          box-shadow: 0 0 10px 3px #B1FF2A;
-         background: #B1FF2A;
-         color: #262626;
+         color: white;
+
        }
      }
    }
@@ -37,18 +37,18 @@ body {
     color: red;
     a {
       padding: 10px 30px 10px 30px;
-      background: #85be24;
+      background: transparent;
+      border: 1px solid  #85be24;
       width: 100%;
       margin: 30px auto 0 auto;
       display: block;
       text-decoration: none;
       text-align: center;
-      color: white;
+      color: #85be24;
       border-radius: 30px;
       &:hover{
         box-shadow: 0 0 10px 3px #B1FF2A;
-        background: #B1FF2A;
-        color: #262626;
+        color: white;
       }
     }
   }

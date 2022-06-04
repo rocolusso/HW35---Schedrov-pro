@@ -18,17 +18,16 @@ body main .user-info ul li {
   padding: 5px;
 }
 body main .user-info button {
-  width: 400px;
-  background: #85be24;
-  border: none;
-  color: white;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #85be24;
+  color: #85be24;
   border-radius: 30px;
   padding: 10px;
 }
 body main .user-info button:hover {
   box-shadow: 0 0 10px 3px #B1FF2A;
-  background: #B1FF2A;
-  color: #262626;
+  color: white;
 }
 body .error {
   margin: 0 auto;
@@ -37,19 +36,19 @@ body .error {
 }
 body .error a {
   padding: 10px 30px 10px 30px;
-  background: #85be24;
+  background: transparent;
+  border: 1px solid #85be24;
   width: 100%;
   margin: 30px auto 0 auto;
   display: block;
   text-decoration: none;
   text-align: center;
-  color: white;
+  color: #85be24;
   border-radius: 30px;
 }
 body .error a:hover {
   box-shadow: 0 0 10px 3px #B1FF2A;
-  background: #B1FF2A;
-  color: #262626;
+  color: white;
 }
 
 /*# sourceMappingURL=userpage.css.map */
